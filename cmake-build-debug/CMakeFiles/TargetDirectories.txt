@@ -1,0 +1,8 @@
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/VariableSizedArrays.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/Pointer.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/BasicDatatypes.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/ConditionalStatements.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/Functions.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/ArraysIntroduction.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/seka5/CLionProjects/CS316/cmake-build-debug/CMakeFiles/rebuild_cache.dir
