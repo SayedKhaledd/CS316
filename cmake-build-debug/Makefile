@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Question2Lab2
+
+# Build rule for target.
+Question2Lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Question2Lab2
+.PHONY : Question2Lab2
+
+# fast build rule for target.
+Question2Lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/build
+.PHONY : Question2Lab2/fast
+
+#=============================================================================
 # Target rules for targets named VariableSizedArrays
 
 # Build rule for target.
@@ -195,6 +208,19 @@ Functions/fast:
 .PHONY : Functions/fast
 
 #=============================================================================
+# Target rules for targets named Question1Lab2
+
+# Build rule for target.
+Question1Lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Question1Lab2
+.PHONY : Question1Lab2
+
+# fast build rule for target.
+Question1Lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/build
+.PHONY : Question1Lab2/fast
+
+#=============================================================================
 # Target rules for targets named ArraysIntroduction
 
 # Build rule for target.
@@ -206,6 +232,19 @@ ArraysIntroduction: cmake_check_build_system
 ArraysIntroduction/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArraysIntroduction.dir\build.make CMakeFiles/ArraysIntroduction.dir/build
 .PHONY : ArraysIntroduction/fast
+
+#=============================================================================
+# Target rules for targets named Question3Lab2
+
+# Build rule for target.
+Question3Lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Question3Lab2
+.PHONY : Question3Lab2
+
+# fast build rule for target.
+Question3Lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/build
+.PHONY : Question3Lab2/fast
 
 ArraysIntroduction.obj: ArraysIntroduction.cpp.obj
 
@@ -342,6 +381,87 @@ Pointer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointer.dir\build.make CMakeFiles/Pointer.dir/Pointer.cpp.s
 .PHONY : Pointer.cpp.s
 
+Question1Lab2.obj: Question1Lab2.cpp.obj
+
+.PHONY : Question1Lab2.obj
+
+# target to build an object file
+Question1Lab2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/Question1Lab2.cpp.obj
+.PHONY : Question1Lab2.cpp.obj
+
+Question1Lab2.i: Question1Lab2.cpp.i
+
+.PHONY : Question1Lab2.i
+
+# target to preprocess a source file
+Question1Lab2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/Question1Lab2.cpp.i
+.PHONY : Question1Lab2.cpp.i
+
+Question1Lab2.s: Question1Lab2.cpp.s
+
+.PHONY : Question1Lab2.s
+
+# target to generate assembly for a file
+Question1Lab2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/Question1Lab2.cpp.s
+.PHONY : Question1Lab2.cpp.s
+
+Question2Lab2.obj: Question2Lab2.cpp.obj
+
+.PHONY : Question2Lab2.obj
+
+# target to build an object file
+Question2Lab2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/Question2Lab2.cpp.obj
+.PHONY : Question2Lab2.cpp.obj
+
+Question2Lab2.i: Question2Lab2.cpp.i
+
+.PHONY : Question2Lab2.i
+
+# target to preprocess a source file
+Question2Lab2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/Question2Lab2.cpp.i
+.PHONY : Question2Lab2.cpp.i
+
+Question2Lab2.s: Question2Lab2.cpp.s
+
+.PHONY : Question2Lab2.s
+
+# target to generate assembly for a file
+Question2Lab2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/Question2Lab2.cpp.s
+.PHONY : Question2Lab2.cpp.s
+
+Question3Lab2.obj: Question3Lab2.cpp.obj
+
+.PHONY : Question3Lab2.obj
+
+# target to build an object file
+Question3Lab2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/Question3Lab2.cpp.obj
+.PHONY : Question3Lab2.cpp.obj
+
+Question3Lab2.i: Question3Lab2.cpp.i
+
+.PHONY : Question3Lab2.i
+
+# target to preprocess a source file
+Question3Lab2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/Question3Lab2.cpp.i
+.PHONY : Question3Lab2.cpp.i
+
+Question3Lab2.s: Question3Lab2.cpp.s
+
+.PHONY : Question3Lab2.s
+
+# target to generate assembly for a file
+Question3Lab2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/Question3Lab2.cpp.s
+.PHONY : Question3Lab2.cpp.s
+
 VariableSizedArrays.obj: VariableSizedArrays.cpp.obj
 
 .PHONY : VariableSizedArrays.obj
@@ -382,6 +502,9 @@ help:
 	@echo ... ConditionalStatements
 	@echo ... Functions
 	@echo ... Pointer
+	@echo ... Question1Lab2
+	@echo ... Question2Lab2
+	@echo ... Question3Lab2
 	@echo ... VariableSizedArrays
 	@echo ... ArraysIntroduction.obj
 	@echo ... ArraysIntroduction.i
@@ -398,6 +521,15 @@ help:
 	@echo ... Pointer.obj
 	@echo ... Pointer.i
 	@echo ... Pointer.s
+	@echo ... Question1Lab2.obj
+	@echo ... Question1Lab2.i
+	@echo ... Question1Lab2.s
+	@echo ... Question2Lab2.obj
+	@echo ... Question2Lab2.i
+	@echo ... Question2Lab2.s
+	@echo ... Question3Lab2.obj
+	@echo ... Question3Lab2.i
+	@echo ... Question3Lab2.s
 	@echo ... VariableSizedArrays.obj
 	@echo ... VariableSizedArrays.i
 	@echo ... VariableSizedArrays.s

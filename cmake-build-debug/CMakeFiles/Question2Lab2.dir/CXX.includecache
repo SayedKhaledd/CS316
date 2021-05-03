@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/seka5/CLionProjects/CS316/Question2Lab2.cpp
+iostream
+-
+cmath
+-
+algorithm
+-
+string
+-
+cstring
+-
+fstream
+-
+cstdlib
+-
+

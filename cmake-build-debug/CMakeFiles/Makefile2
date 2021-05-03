@@ -72,12 +72,15 @@ CMAKE_BINARY_DIR = C:\Users\seka5\CLionProjects\CS316\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Question2Lab2.dir/all
 all: CMakeFiles/VariableSizedArrays.dir/all
 all: CMakeFiles/Pointer.dir/all
 all: CMakeFiles/BasicDatatypes.dir/all
 all: CMakeFiles/ConditionalStatements.dir/all
 all: CMakeFiles/Functions.dir/all
+all: CMakeFiles/Question1Lab2.dir/all
 all: CMakeFiles/ArraysIntroduction.dir/all
+all: CMakeFiles/Question3Lab2.dir/all
 
 .PHONY : all
 
@@ -87,14 +90,44 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Question2Lab2.dir/clean
 clean: CMakeFiles/VariableSizedArrays.dir/clean
 clean: CMakeFiles/Pointer.dir/clean
 clean: CMakeFiles/BasicDatatypes.dir/clean
 clean: CMakeFiles/ConditionalStatements.dir/clean
 clean: CMakeFiles/Functions.dir/clean
+clean: CMakeFiles/Question1Lab2.dir/clean
 clean: CMakeFiles/ArraysIntroduction.dir/clean
+clean: CMakeFiles/Question3Lab2.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Question2Lab2.dir
+
+# All Build rule for target.
+CMakeFiles/Question2Lab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Question2Lab2"
+.PHONY : CMakeFiles/Question2Lab2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Question2Lab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Question2Lab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Question2Lab2.dir/rule
+
+# Convenience name for target.
+Question2Lab2: CMakeFiles/Question2Lab2.dir/rule
+
+.PHONY : Question2Lab2
+
+# clean rule for target.
+CMakeFiles/Question2Lab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question2Lab2.dir\build.make CMakeFiles/Question2Lab2.dir/clean
+.PHONY : CMakeFiles/Question2Lab2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/VariableSizedArrays.dir
@@ -103,7 +136,7 @@ clean: CMakeFiles/ArraysIntroduction.dir/clean
 CMakeFiles/VariableSizedArrays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariableSizedArrays.dir\build.make CMakeFiles/VariableSizedArrays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariableSizedArrays.dir\build.make CMakeFiles/VariableSizedArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target VariableSizedArrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target VariableSizedArrays"
 .PHONY : CMakeFiles/VariableSizedArrays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -232,6 +265,33 @@ CMakeFiles/Functions.dir/clean:
 .PHONY : CMakeFiles/Functions.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Question1Lab2.dir
+
+# All Build rule for target.
+CMakeFiles/Question1Lab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Question1Lab2"
+.PHONY : CMakeFiles/Question1Lab2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Question1Lab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Question1Lab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Question1Lab2.dir/rule
+
+# Convenience name for target.
+Question1Lab2: CMakeFiles/Question1Lab2.dir/rule
+
+.PHONY : Question1Lab2
+
+# clean rule for target.
+CMakeFiles/Question1Lab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question1Lab2.dir\build.make CMakeFiles/Question1Lab2.dir/clean
+.PHONY : CMakeFiles/Question1Lab2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ArraysIntroduction.dir
 
 # All Build rule for target.
@@ -257,6 +317,33 @@ ArraysIntroduction: CMakeFiles/ArraysIntroduction.dir/rule
 CMakeFiles/ArraysIntroduction.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ArraysIntroduction.dir\build.make CMakeFiles/ArraysIntroduction.dir/clean
 .PHONY : CMakeFiles/ArraysIntroduction.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Question3Lab2.dir
+
+# All Build rule for target.
+CMakeFiles/Question3Lab2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Question3Lab2"
+.PHONY : CMakeFiles/Question3Lab2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Question3Lab2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Question3Lab2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seka5\CLionProjects\CS316\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Question3Lab2.dir/rule
+
+# Convenience name for target.
+Question3Lab2: CMakeFiles/Question3Lab2.dir/rule
+
+.PHONY : Question3Lab2
+
+# clean rule for target.
+CMakeFiles/Question3Lab2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Question3Lab2.dir\build.make CMakeFiles/Question3Lab2.dir/clean
+.PHONY : CMakeFiles/Question3Lab2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
